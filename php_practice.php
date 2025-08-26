@@ -1,13 +1,13 @@
 HELLO WORLD!
-<!-- 
-<h1>HELLO WORLD!</h1>
+
+<!-- <h1>HELLO WORLD!</h1> -->
 
 <style>
     h1 {
 
         color : blue ;
     }
- </style> -->
+ </style> 
 
  <script>
 alert("warning ")
@@ -21,20 +21,20 @@ alert("warning ")
       #echo "hilong hilo nako ";
       #
     /* echo "hilong hilo nako*/
-       echo "hilong hilo nako"
- ?>   
+//        echo "hilong hilo nako"
+//  ?>   
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+ <!-- <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Document</title>
+// </head>
+// <body> -->
     <!-- <h1> this is my first php page </h1> -->
-    <?php
-     Echo "Hello world ";
+     <?php
+//      Echo "Hello world ";
       //echo "Hello world "
         //EcHo "Hello world ";
         
@@ -119,7 +119,136 @@ alert("warning ")
         // echo print_r(explode("a",$name),"<br>");
         
 
+         //    $x = "HELLO ";  
+         //    $y = "MUNDO ";
+         //    echo $x.$y,"<br>";
+         //    echo "$x.$y","<br>";
+         //    echo '$x.$y',"<br>";
 
+        //slicing
+    //    $x = "HELLO";
+    //   echo substr($x,1,4),"<br>";
+    //   echo substr($x,1),"<br>";
+    //   echo substr($x,-1),"<br>";
+    //   echo substr($x,-5, 2),"<br>";
+
+     //escape CH 
+    //  $a ="sample";
+    // $x ="jhon\"Pogi\"doe";
+    //  echo $x;
+
+    //php number 
+//     $a = -1;//int 
+//     $b =  1.0;//float
+//     $c =   "5 eggs";//string
+
+//    echo PHP_INT_MAX,"<br>";
+//    echo PHP_INT_MIN,"<br>";
+//    echo PHP_INT_SIZE,"<br>";
+//    echo is_int($c);
+   
+//    echo PHP_FLOAT_MAX,"<br>";
+//    echo PHP_FLOAT_MIN,"<br>";
+//    echo PHP_FLOAT_DIG,"<br>";
+//    echo PHP_FLOAT_DIG,"<br>";
+//    echo PHP_FLOAT_EPSILON,"<br>";
+//    echo is_float($b),"<br>";
+
+//    echo is_numeric($c),"<br>";
+
+
+$a ="john";//string
+$b = 5;//int
+$c = 5.34;//float
+$d = true; // bool
+$e = [1,2,3];//array
+$f = new stdClass();//object
+$g = null;//null
+$h = fopen ("php_practice.php","r");//resource
+
+// $a1 = $a;
+// $b1 =  $b;
+// $c1 = $c;
+// $d1 = $d;
+// $e1 = $e;
+// $f1 = $f;
+// $g1 =  $g;
+// $h1 =  $h;
+
+         
+// casting string 
+
+// $a1 = (string)$a;
+// $b1 = (string) $b;
+// $c1 = (string) $c;
+// $dc = (int)$d;
+// $e1 = $e;
+// $f1 = $f;
+// $g1 = (string) $g;
+// $h1 = (string) $h;
+
+//casting string 
+// $a1 =(int)$a;
+// $b1 =(int)$b;
+// $c1 =(int)$c;
+// $dc = (int)$d;
+// $e1 =(int)$e;
+// $f1 =$f;
+// $g1 =(int)$g;
+// $h1 =(int)$h;
+
+// casting float 
+// $a1 = (float)$a;
+// $b1 = (float)$b;
+// $c1 = (float)$c;
+// $e1 = (float)$e;
+// $f1 = $f;
+// $g1 = (float)$g;
+// $h1 = (float)$h;
+ 
+//  var_dump($a);
+//  echo"<br>";
+// var_dump($b);
+//  echo"<br>";
+//  var_dump($c);
+//  echo"<br>";
+// var_dump($d);
+// echo"<br>";
+// var_dump($e);
+//   echo"<br>";
+//  var_dump($f);
+//    echo"<br>";
+// var_dump($g);
+//   echo"<br>";
+// var_dump($h);
+//   echo"<br>";
+  
+//array 
+// $a1 = (array)$a;
+// $b1 = (array)$b;
+// $c1 = (array)$c;
+// $d1 = (array)$d;
+// $e1 = (array)$e;
+// $f1 = $f;
+// $g1 = (array)$g;
+// $h1 = (array)$h;
+
+// var_dump($a1);
+//  echo"<br>";
+// var_dump($b1);
+//  echo"<br>";
+//  var_dump($c1);
+//  echo"<br>";
+// var_dump($d1);
+// echo"<br>";
+// var_dump($e1);
+//   echo"<br>";
+// var_dump($f1);
+//   echo"<br>";
+// var_dump($g1);
+//   echo"<br>";
+// var_dump($h1);
+//   echo"<br>";
 
 
     ?>
