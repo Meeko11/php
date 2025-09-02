@@ -157,14 +157,14 @@ alert("warning ")
 //    echo is_numeric($c),"<br>";
 
 
-$a ="john";//string
-$b = 5;//int
-$c = 5.34;//float
-$d = true; // bool
-$e = [1,2,3];//array
-$f = new stdClass();//object
-$g = null;//null
-$h = fopen ("php_practice.php","r");//resource
+// $a ="john";//string
+// $b = 5;//int
+// $c = 5.34;//float
+// $d = true; // bool
+// $e = [1,2,3];//array
+// $f = new stdClass();//object
+// $g = null;//null
+// $h = fopen ("php_practice.php","r");//resource
 
 // $a1 = $a;
 // $b1 =  $b;
@@ -250,7 +250,166 @@ $h = fopen ("php_practice.php","r");//resource
 // var_dump($h1);
 //   echo"<br>";
 
+// php math function 
+// $pi = pi();
+// echo $pi,'<br>';
 
+// $minNumber = min(300,90,5,98,3);
+// echo $minNumber,'<br>';
+// echo $maxNumber,'<br>';
+
+
+// $num = 5;
+// echo abs($num),'<br>';
+
+// $sqrt = sqrt(8);
+// echo $sqrt,'<br>';
+
+// $rounded = round(5.89,2);
+// echo $rounded,'<br>';
+
+// echo PHP_INT_MAX,'<br>';
+// echo PHP_INT_MIN,'<br>';
+// echo rand(0,0),'<br>';
+
+
+// echo rand(5,89),'<br>';
+
+
+//PHP constant 
+
+// define("_greeting",[1,2,3]);
+// //echo greeting;
+// $x = 5;
+
+// function test(){
+   
+// echo greeting;
+
+// }
+// test();
+
+// operators 
+// aritmithic 
+
+// //addition + sum 
+// echo 6 + 5 + 54,'<br>' ;
+
+// //subtaction - difference 
+// echo 7 - 2 - 10,'<br>' ;
+
+// echo 7 - 2 + 90,'<br>' ;//pemdas
+
+
+
+// //multiplication * product 
+// echo 5 * 9 * 4 ,'<br>'; 
+// // division / qoutient
+// echo 6 / 8,'<br>';
+
+// echo  6 * 2 / 2,'<br>';
+// //mod as 
+// echo 13+6/2*2,'<br>';
+
+// //modolus 
+// echo 5%2 ;
+
+// //exponent
+// echo 4**2 ;
+    
+    //Assingment 
+    // $x = 5;
+    // +=
+    //-=
+    //  /=
+    // *=
+    // %=
+
+   //$x=$x+10;
+  // $x +=10;
+// echo $x;
+    //comparison 
+
+    // ==
+    var_dump(6=="6");
+    
+    // ===
+    // var_dump(7== "7");
+
+    // // !=
+    // var_dump(100!= 99);
+
+    //  // !==
+    //  var_dump(100!== 99);
+
+    //  // >
+    //  var_dump(100 > 200);
+
+    //    // >=
+    //  var_dump(100 >= 20);
+
+    //  // <
+    //  var_dump(10 < 200);
+
+    //     // <=
+    //  var_dump(100 <= 200);
+
+    //  //<=>
+    //  echo 6 <=> 5 ;
+
+    // // ++ incriment 
+    //  $x = 5 ;
+    // // pre -incriment
+    // echo --$x,"<br>";
+    //  echo $x++,"<br>";
+    // //-- decrement 
+    // $y = 5 ;
+    //  //-- pre -decrement 
+    //    echo $y--,"<br>";
+     
+    // logical operator 
+
+    // and &&
+//     var_dump(true and true);
+//     echo '<br>';
+//      var_dump(6=="6" && 6>9);
+//     echo '<br>';
+
+
+//     // or ||
+//     var_dump(true or false);//true 
+//     var_dump(false or false);//false 
+//     echo '<br>';
+//      var_dump(6=="6" || 6>9);
+//     echo '<br>';
+
+
+//     // xor 
+//       var_dump(true xor true);
+//     echo '<br>';
+//      var_dump(6=="6" xor 6>9);
+//     echo '<br>';
+
+//     //! NOT 
+//    var_dump(!true );// baliktad
+//     echo '<br>';
+
+//      var_dump(!(6=="6") );
+//     echo '<br>';
+
+
+//String operator 
+// echo "hello"."world":
+// $x ="hello";
+// // $x =$x."world";
+// $x. = "world";
+    
+    
+    
+    
+    
+    
+    
     ?>
 </body>
 </html>
